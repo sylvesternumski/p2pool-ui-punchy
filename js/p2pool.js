@@ -481,7 +481,7 @@ var initThemes = function () {
   });
 };
 var changeTheme = function (theme) {
-  $('#theme').attr('href', 'css/bootstrap-' + theme.toLowerCase() + '.min.css');
+  $('#theme').attr('href', 'css/bootstrap-' + theme.toLowerCase().trim() + '.min.css');
 };
 
 // update tables and miner data
